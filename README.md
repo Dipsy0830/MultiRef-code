@@ -140,18 +140,13 @@ Before that, you should judge the quality and alignment of generated reference i
 }
 ```
 
-To generate instructions for your dataset, use `generate_instruction.py`. 
+To generate instructions for your dataset, use `generate_instructions_new.py`. 
 
 ### How to Run
-1. At the top of `generate_instruction.py`, set the following environment variables:
-   - `SELECT_INPUT_FILE_PATH`: Path to the input file (e.g., a JSON or CSV containing your data entries)
-   - `ENHANCED_PROMPTS_OUTPUT_FILE_PATH`: Path to the output file where the enhanced instructions will be saved
+1. At the top of `generate_instructions_new.py`, set the following environment variables:
+   - `SELECT_INPUT_FILE_PATH`: Path to the input JSON file (e.g., a JSON containing your data entries)
+   - `ENHANCED_PROMPTS_OUTPUT_FILE_PATH`: Path to the output JSON file where the enhanced instructions will be saved
 
-Example:
-```python
-SELECT_INPUT_FILE_PATH = 'your_input.json'
-ENHANCED_PROMPTS_OUTPUT_FILE_PATH = 'your_output.json'
-```
 2. Then run:
 ```bash
 python generate_instructions_new.py
