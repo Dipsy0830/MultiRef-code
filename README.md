@@ -32,11 +32,11 @@ conda activate multi
 
 ---
 
-## External Model Dependencies
+### External Model Dependencies
 
 To run the evaluation pipeline, you must install the following external models and code in the specified locations (relative to the `MultiRef-code` directory):
 
-### 1. Grounded-SAM-2 
+#### 1. Grounded-SAM-2 
 - **Path:** `../Grounded-SAM-2/`
 - **Usage:** generate semantic map, mask, bounding boxes.
 - **Install:**
@@ -45,7 +45,7 @@ To run the evaluation pipeline, you must install the following external models a
   ```
   Follow the official instructions to install dependencies and download model weights.
 
-### 2. Depth-Anything-V2 
+#### 2. Depth-Anything-V2 
 - **Path:** `../Depth-Anything-V2/`
 - **Usage:** generate depth map.
 - **Install:**
@@ -54,7 +54,7 @@ To run the evaluation pipeline, you must install the following external models a
   ```
   Follow the official instructions to install dependencies and download model weights.
 
-### 3. Sketch Model 
+#### 3. Sketch Model 
 - **Path:** `../informative-drawings/`
 - **Usage:** generate sketch reference.
 - **Install:**
@@ -65,7 +65,7 @@ To run the evaluation pipeline, you must install the following external models a
   - Download or copy the model weights to the correct location.
   - Ensure all required Python packages are installed (see `requirements.txt`).
 
-### 4. Pose Model 
+#### 4. Pose Model 
 - **Path:** `../HigherHRNet-Human-Pose-Estimation/`
 - **Usage:** generate pose reference.
 - **Install:**
