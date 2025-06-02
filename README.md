@@ -29,7 +29,6 @@ conda activate multi
   - Florence-2-large (downloaded automatically by `transformers`)
 - Local scripts:
   - All required `.py` files in `../conditions/` (e.g., `to_depth.py`, `to_sketch_new.py`, `to_caption.py`, `to_extrapolation.py`, `to_ground_sam.py`, `to_pose_no_args.py`, etc.)
-  - `traditional_metrics.py` depends on `aesthetics_predictor.py`
 
 ---
 
