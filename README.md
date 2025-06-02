@@ -95,13 +95,51 @@ python stylebooth2condition.py
 
 ### Output
 - For each original image, the pipeline will generate reference images (e.g., style, semantic map, mask, etc.) in the output directory. Besides, for one image, it will generate one json file for detail image paths.
-- The output can be used for further evaluation or as input to other stages of the pipeline.
+- The output json of each image will follow this structure:
+
+```json
+{
+    "original_image_path": "<path to original image>",
+    "conditions": {
+        "semantic_map_path": "<path to semantic map image>",
+        "sketch_path": "<path to sketch image>",
+        "canny_path": "<path to canny image>",
+        "bbox_path": "<path to bbox image>",
+        "depth_path": "<path to depth image>",
+        "mask_path": "<path to mask image>",
+        "caption": "<caption text>",
+        "style_path": [
+            "<path to style image 1>",
+            "<path to style image 2>"
+        ]
+    }
+}
+```
 
 ---
 
 ## Generate Instructions
 
-Before that, you should judge the quality and alignment of generated reference images. 
+Before that, you should judge the quality and alignment of generated reference images. The judging structure should follow:
+```json
+{
+    "...":{},
+    "judge": {
+        "Semantic-Map Alignment": 5,
+        "Semantic-Map Quality": 5,
+        "Sketch Alignment": 5,
+        "Sketch Quality": 5,
+        "Canny Alignment": 5,
+        "Canny Quality": 5,
+        "Bounding-Box Accuracy": 5,
+        "Depth Alignment": 5,
+        "Depth Quality": 5,
+        "Mask Alignment": 5,
+        "Caption Alignment": 5
+    }
+}
+```
+
 To generate instructions for your dataset, use `generate_instruction.py`. 
 
 ### How to Run
