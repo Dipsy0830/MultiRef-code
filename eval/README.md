@@ -1,12 +1,9 @@
-# Benchmark Eval Pipeline
-
-
+# Synthetic Eval Pipeline
 
 > **Note:** All external dependencies must be installed manually. The evaluation code expects these directories and files to exist at the specified relative paths.
 
 ## Usage
 
-### 1. Single Evaluation
 ```bash
 python process_for_eval.py --input <input_json_path> --output <output_json_path> --workers 10
 ```
@@ -14,15 +11,8 @@ python process_for_eval.py --input <input_json_path> --output <output_json_path>
 - `--output`: Output JSON file
 - `--workers`: Number of parallel processes
 
-### 2. Result Analysis
-```bash
-# Open and run the notebook:
-# ../generation_results/check_eval.ipynb
-```
-- Specify the output JSON paths in the file_paths array to automatically analyze results for each model.
 
-
-## Input JSON Format
+**Input JSON Format**
 
 The `--input` argument should point to a JSON file containing a list of entries.  
 **Each entry must follow the structure below (fields can be extended as needed):**
