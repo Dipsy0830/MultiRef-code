@@ -37,27 +37,27 @@ conda activate multi
 
 To run the evaluation pipeline, you must install the following external models and code in the specified locations (relative to the `MultiRef-code` directory):
 
-### 1. Grounded-SAM-2 (used by `to_ground_sam.py`)
+### 1. Grounded-SAM-2 
 - **Path:** `../Grounded-SAM-2/`
-- **Usage:** Segmentation, mask, bbox, and semantic map evaluation.
+- **Usage:** generate semantic map, mask, bounding boxes.
 - **Install:**
   ```bash
   git clone https://github.com/IDEA-Research/Grounded-SAM-2.git ../Grounded-SAM-2
   ```
   Follow the official instructions to install dependencies and download model weights.
 
-### 2. Depth-Anything-V2 (used by `to_depth.py`)
+### 2. Depth-Anything-V2 
 - **Path:** `../Depth-Anything-V2/`
-- **Usage:** Depth evaluation.
+- **Usage:** generate depth map.
 - **Install:**
   ```bash
   git clone https://github.com/DepthAnything/Depth-Anything-V2.git ../Depth-Anything-V2
   ```
   Follow the official instructions to install dependencies and download model weights.
 
-### 3. Sketch Model (used by `to_sketch_new.py`)
+### 3. Sketch Model 
 - **Path:** `../informative-drawings/`
-- **Usage:** Sketch evaluation.
+- **Usage:** generate sketch reference.
 - **Install:**
   ```bash
   git clone https://github.com/carolineec/informative-drawings.git ../informative-drawings
@@ -66,9 +66,9 @@ To run the evaluation pipeline, you must install the following external models a
   - Download or copy the model weights to the correct location.
   - Ensure all required Python packages are installed (see `requirements.txt`).
 
-### 4. Pose Model (used by `to_pose_no_args.py`)
+### 4. Pose Model 
 - **Path:** `../HigherHRNet-Human-Pose-Estimation/`
-- **Usage:** Pose evaluation.
+- **Usage:** generate pose reference.
 - **Install:**
   ```bash
   git clone https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation.git ../HigherHRNet-Human-Pose-Estimation
@@ -97,14 +97,15 @@ python stylebooth2condition.py
 - You can modify these paths as needed.
 
 ### Output
-- For each original image, the pipeline will generate reference images (e.g., style, semantic map, mask, etc.) in the output directory.
+- For each original image, the pipeline will generate reference images (e.g., style, semantic map, mask, etc.) in the output directory. Besides, for one image, it will generate one json file for detail image paths.
 - The output can be used for further evaluation or as input to other stages of the pipeline.
 
 ---
 
 ## Generating Instructions
 
-To generate instructions for your dataset, use `generate_instruction.py`.
+Before that, you should judge the quality and alignment of generated reference images. 
+To generate instructions for your dataset, use `generate_instruction.py`. 
 
 ### How to Run
 1. At the top of `generate_instruction.py`, set the following environment variables:
@@ -131,8 +132,8 @@ This pipeline ensures that for each original image, you have a full set of refer
 ## Benchmark Eval
 
 The benchmark can be downloaded at:
-- [Real-world](https://huggingface.co/datasets/wsnHowest/multiref/tree/master)
-- [Synthetic](https://huggingface.co/datasets/Dipsy0830/MultiRef/tree/main)
+- [Real-world (1k sample)](https://huggingface.co/datasets/wsnHowest/multiref/tree/master)
+- [Synthetic (990 sample)](https://huggingface.co/datasets/Dipsy0830/MultiRef/tree/main)
 
 For details on the evaluation pipeline and metrics, see [eval/README.md](./eval/README.md).
 
