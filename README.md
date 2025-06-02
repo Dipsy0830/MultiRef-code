@@ -30,8 +30,6 @@ conda activate multi
 - Local scripts:
   - All required `.py` files in `../conditions/` (e.g., `to_depth.py`, `to_sketch_new.py`, `to_caption.py`, `to_extrapolation.py`, `to_ground_sam.py`, `to_pose_no_args.py`, etc.)
 
----
-
 ### External Model Dependencies
 
 To run the evaluation pipeline, you must install the following external models and code in the specified locations (relative to the `MultiRef-code` directory):
@@ -76,7 +74,7 @@ To run the evaluation pipeline, you must install the following external models a
 
 ---
 
-## Data Engine Pipeline Example: 
+## Data Engine Pipeline 
 
 The data engine pipeline generates reference images and condition data for each original image in your dataset. Below is an example for stylebooth dataset using `stylebooth2condition.py`:
 
@@ -101,7 +99,7 @@ python stylebooth2condition.py
 
 ---
 
-## Generating Instructions
+## Generate Instructions
 
 Before that, you should judge the quality and alignment of generated reference images. 
 To generate instructions for your dataset, use `generate_instruction.py`. 
