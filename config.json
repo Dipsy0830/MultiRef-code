@@ -1,0 +1,15 @@
+{
+    "openai_sdk_vlms": {"gpt-4o-mini": "OPENAI", 
+                        "gpt-4o-mini-s3": "AZURE"},
+    "OPENAI": {
+        "OPENAI_API_KEY": "your_openai_api_key",
+        "OPENAI_BASE_URL": "xxx"
+    },
+    "AZURE": {
+        "AZURE_API_KEY":"your_azure_api_key",
+        "AZURE_API_VERSION": "xxx",
+        "AZURE_ENDPOINT": "xxx"
+    } 
+}
+
+

@@ -1,0 +1,38 @@
+# 忽略所有图片和中间结果
+*.jpg
+*.png
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+
+# 忽略notebook
+*.ipynb
+
+# 忽略pycache
+__pycache__/
+*.pyc
+
+# 忽略pose_cache等缓存目录
+pose_cache/
+
+# 忽略大文件
+*.pt
+*.pth
+*.npz
+*.npy
+*.tar.gz
+*.zip
+
+# 忽略yaml和yml（如非必要）
+*.yml
+*.yaml
+
+# 保留核心代码和脚本
+!*.py
+!*.sh
+
+# 其他临时文件
+*.log
+*.tmp
+*.bak 

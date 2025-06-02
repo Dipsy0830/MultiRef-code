@@ -1,0 +1,146 @@
+{
+    "style": {
+        "template": [
+            "Inspired by the essence of <style_image>, this reflects its distinctive flair",
+            "Crafted in the characteristic tone of <style_image>",
+            "Modeled with the unique influence of <style_image>",
+            "Echoing the artistic spirit of <style_image>",
+            "Infused with the signature style of <style_image>",
+            "Reflecting the aesthetic nuances of <style_image>",
+            "A reinterpretation influenced by <style_image>",
+            "Harmonizing with the thematic essence of <style_image>",
+            "Inspired by and shaped in the vein of <style_image>",
+            "Capturing the creative vision embodied by <style_image>"
+        ],
+        "path_key": "style_path",
+        "image_fill_key": "style_image"
+    },
+    "subject": {
+        "template": [
+            "featuring <subject_1>.",
+            "showcasing <subject_1>.",
+            "focusing on <subject_1>.",
+            "while emphasizing <subject_1>",
+            "with a focus on <subject_1>.",
+            "centered on <subject_1>.",
+            "highlighting <subject_1>.",
+            "to better display <subject_1>.",
+            "while emphasizing <subject_1>.",
+            "to reveal finer details of <subject_1>."
+        ],
+        "path_key": "subject_paths",
+        "image_fill_key": "subject_1"
+    },
+    "sketch": {
+        "template": [
+            "Following the sketch of <sketch_image>, this mirrors its essence.",
+            "Designed in alignment with the sketch of <sketch_image>.",
+            "Echoing the framework drawn by <sketch_image>.",
+            "Guided by the outline of <sketch_image>, it retains its authenticity.",
+            "Reflecting the initial strokes of <sketch_image>.",
+            "Infused with the skeletal form of <sketch_image>.",
+            "Shaped under the influence of <sketch_image>'s sketch.",
+            "Structured around the design of <sketch_image>.",
+            "Capturing the structural integrity of <sketch_image>.",
+            "Crafted to reflect the framework of <sketch_image>."
+        ],
+        "path_key": "sketch_path",
+        "image_fill_key": "sketch_image"
+    },
+    "depth": {
+        "template": [
+            "Following the depth of <depth_image>, this delves into its essence.",
+            "Inspired by the dimensionality of <depth_image>, it captures its core.",
+            "Reflecting the profound layers of <depth_image>.",
+            "Echoing the spatial depth of <depth_image>, it retains its integrity.",
+            "Infused with the visual perspective of <depth_image>.",
+            "Guided by the textured depth of <depth_image>.",
+            "Structured to align with the depths captured by <depth_image>.",
+            "Modeled after the layered depth of <depth_image>.",
+            "Harmonizing with the multi-dimensional feel of <depth_image>.",
+            "Crafted to embrace the depth portrayed by <depth_image>."
+        ],
+        "path_key": "depth_path",
+        "image_fill_key": "depth_image"
+    },
+    "canny": {
+        "template": [
+            "Following the edge of <canny_image>, this captures its sharpness.",
+            "Inspired by the contours of <canny_image>, it traces its form.",
+            "Reflecting the defined edges of <canny_image>.",
+            "Echoing the precision lines of <canny_image>, it retains its clarity.",
+            "Infused with the sharp boundaries of <canny_image>.",
+            "Guided by the linear features of <canny_image>.",
+            "Structured to follow the contours highlighted by <canny_image>.",
+            "Modeled after the crisp edges of <canny_image>.",
+            "Harmonizing with the boundary lines of <canny_image>.",
+            "Crafted to reflect the edge details of <canny_image>."
+        ],
+        "path_key": "canny_path",
+        "image_fill_key": "canny_image"
+    },
+    "semantic_map": {
+        "template": [
+            "Following the semantic map in <semantic_image>, this aligns with its meaning.",
+            "Inspired by the structure of <semantic_image>, it conveys its intent.",
+            "Reflecting the mapped semantics of <semantic_image>.",
+            "Echoing the visual language of <semantic_image>, it captures its essence.",
+            "Infused with the meaningful contours of <semantic_image>.",
+            "Guided by the symbolic layout of <semantic_image>.",
+            "Structured around the semantics depicted in <semantic_image>.",
+            "Modeled to align with the conceptual map of <semantic_image>.",
+            "Harmonizing with the thematic essence of <semantic_image>.",
+            "Crafted to reflect the semantic details of <semantic_image>."
+        ],
+        "path_key": "semantic_map_path",
+        "image_fill_key": "semantic_image"
+    },
+    "bbox": {
+        "template": [
+            "Following the bounding box in <bbox_image>, this outlines its structure.",
+            "Inspired by the box constraints of <bbox_image>, it defines its scope.",
+            "Reflecting the encapsulated regions of <bbox_image>.",
+            "Echoing the boundary lines of <bbox_image>, it retains its precision.",
+            "Infused with the spatial framework of <bbox_image>.",
+            "Guided by the rectangular limits of <bbox_image>.",
+            "Structured to follow the defined areas in <bbox_image>.",
+            "Modeled after the bounding parameters of <bbox_image>.",
+            "Harmonizing with the enclosed regions of <bbox_image>.",
+            "Crafted to reflect the boundary specifications of <bbox_image>."
+        ],
+        "path_key": "bbox_path",
+        "image_fill_key": "bbox_image"
+    },
+    "mask": {
+        "template": [
+            "Following the mask in <mask_image>, this captures its shape.",
+            "Inspired by the masked outline of <mask_image>, it defines its form.",
+            "Reflecting the contours covered by <mask_image>.",
+            "Echoing the masked regions of <mask_image>, it retains its detail.",
+            "Infused with the coverage specified by <mask_image>.",
+            "Guided by the spatial coverage of <mask_image>.",
+            "Structured to align with the masked features in <mask_image>.",
+            "Modeled after the outlined mask of <mask_image>.",
+            "Harmonizing with the masked boundaries of <mask_image>.",
+            "Crafted to reflect the regions defined by the mask in <mask_image>."
+        ],
+        "path_key": "mask_path",
+        "image_fill_key": "mask_image"
+    },
+    "pose": {
+        "template": [
+            "Following the pose in <pose_image>, this mirrors its stance.",
+            "Inspired by the posture captured in <pose_image>, it reflects its form.",
+            "Reflecting the alignment depicted in <pose_image>.",
+            "Echoing the position shown in <pose_image>, it retains its essence.",
+            "Infused with the dynamic structure of <pose_image>.",
+            "Guided by the articulated motion of <pose_image>.",
+            "Structured around the pose outlined in <pose_image>.",
+            "Modeled to replicate the position in <pose_image>.",
+            "Harmonizing with the posture embodied in <pose_image>.",
+            "Crafted to reflect the expressive pose of <pose_image>."
+        ],
+        "path_key": "pose_path",
+        "image_fill_key": "pose_image"
+    }
+}

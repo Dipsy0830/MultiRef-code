@@ -1,0 +1,11 @@
+index,bbox,mask,pose,caption,subject,semantic_map,depth,canny,sketch,style
+bbox,-,x,x,_,_,x,x,x,x,v
+mask,x,-,x,_,_,x,x,x,x,v
+pose,x,x,v,v,-,x,x,x,x,v
+caption,v,v,v,-,v,v,v,v,v,v
+subject,v,v,-,v,v,v,v,v,v,v
+semantic_map,x,x,x,v,v,-,x,x,x,v
+depth,x,x,x,v,v,x,-,x,x,v
+canny,x,x,x,v,v,x,x,-,x,v
+sketch,x,x,x,v,v,x,x,x,-,v
+style,v,v,v,v,v,v,v,v,v,-
