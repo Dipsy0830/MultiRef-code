@@ -149,8 +149,8 @@ To generate instructions for your dataset, use `generate_instruction.py`.
 
 Example:
 ```python
-SELECT_INPUT_FILE_PATH = '../../MetaData/X2I-mm-instruction/your_input.json'
-ENHANCED_PROMPTS_OUTPUT_FILE_PATH = '../../MetaData/X2I-mm-instruction/your_output.json'
+SELECT_INPUT_FILE_PATH = 'your_input.json'
+ENHANCED_PROMPTS_OUTPUT_FILE_PATH = 'your_output.json'
 ```
 2. Then run:
 ```bash
