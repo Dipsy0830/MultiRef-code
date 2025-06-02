@@ -118,9 +118,8 @@ ENHANCED_PROMPTS_OUTPUT_FILE_PATH = '../../MetaData/X2I-mm-instruction/your_outp
 ```bash
 python generate_instructions_new.py
 ```
-- The script will read the input file, process the data, and write the enhanced instructions to the output file you specified.
+The script will read the input file, process the data, and write the enhanced instructions to the output file you specified.
 
----
 
 This pipeline ensures that for each original image, you have a full set of reference images and instructions, supporting downstream evaluation and benchmarking tasks.
 
