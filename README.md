@@ -160,7 +160,7 @@ This pipeline ensures that for each original image, you have a full set of refer
 
 ## Benchmark Eval
 
-The benchmark can be downloaded at: (https://huggingface.co/datasets/wsnHowest/MultiRef)
+The benchmark can be downloaded at: https://huggingface.co/datasets/wsnHowest/MultiRef
 
 For details on the evaluation pipeline and metrics, see [eval/README.md](./eval/README.md).
 
