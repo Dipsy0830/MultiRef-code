@@ -160,9 +160,7 @@ This pipeline ensures that for each original image, you have a full set of refer
 
 ## Benchmark Eval
 
-The benchmark can be downloaded at:
-- [Real-world (1k sample)](https://huggingface.co/datasets/wsnHowest/multiref/tree/master)
-- [Synthetic (990 sample)](https://huggingface.co/datasets/Dipsy0830/MultiRef/tree/main)
+The benchmark can be downloaded at: (https://huggingface.co/datasets/wsnHowest/MultiRef)
 
 For details on the evaluation pipeline and metrics, see [eval/README.md](./eval/README.md).
 
